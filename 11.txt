@@ -1,0 +1,1 @@
+[root@localhost ~]#awk '{a[$1]+=1;}END{for(i in a){print a[i]"" i;}}' access_log|sort -n -r|head -n 10
