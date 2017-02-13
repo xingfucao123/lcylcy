@@ -1,1 +1,0 @@
-[root@localhost ~]#cp ./dir1 l-test.dev.cn1/tmp
